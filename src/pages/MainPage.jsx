@@ -3,7 +3,8 @@ import Header from "../organisms/Header";
 import Naming from "../molecules/Naming";
 import Stories from "../organisms/Stories";
 import Swipper from "../organisms/Swipper";
-import Counter from "../atoms/Counter";
+import News from "../organisms/News";
+import Address from "../organisms/Address";
 
 function MainPage() {
   return (
@@ -11,16 +12,26 @@ function MainPage() {
       <Header />
       <main>
         <Stories />
-        <Naming title="Категории" podTitle=''/>
+
+        <Naming title="Категории" podTitle="" />
 
         <Categories />
 
-        <Naming title="Хиты продаж" podTitle='перейти в каталог'/>
+        <Naming title="Хиты продаж" podTitle="перейти в каталог" />
 
-        <Swipper />
+        <Swipper variant={1} />
 
-        <Naming title="Новости" podTitle='все'/>
+        <Naming title="Новости" podTitle="все" />
 
+        <News />
+
+        <Naming title="Аукционные товары" podTitle="перейти в каталог" />
+
+        <Swipper variant={2} />
+
+        <Naming title="Адреса магазинов" podTitle="" />
+
+        <Address />
       </main>
     </>
   );
