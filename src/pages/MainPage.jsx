@@ -5,6 +5,7 @@ import Stories from "../organisms/Stories";
 import Swipper from "../organisms/Swipper";
 import News from "../organisms/News";
 import Address from "../organisms/Address";
+import Footer from "../molecules/Footer";
 
 function MainPage() {
   return (
@@ -33,6 +34,8 @@ function MainPage() {
 
         <Address />
       </main>
+
+      <Footer />
     </>
   );
 }
