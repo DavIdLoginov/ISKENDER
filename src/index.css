@@ -49,17 +49,3 @@ main {
   flex-direction: column;
   align-items: center;
 }
-
-.section__title {
-  font-size: 25px;
-  font-weight: 600;
-  line-height: 31px;
-  letter-spacing: 0em;
-  text-align: start;
-  color: rgba(0, 0, 0, 1);
-  display: block;
-  max-width: 1244px;
-  width: 100%;
-  margin-top: 49px;
-  margin-bottom: 18px;
-}
