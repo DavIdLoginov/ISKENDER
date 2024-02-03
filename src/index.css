@@ -36,4 +36,15 @@ code {
 
 body {
   font-family: 'Gilroy', sans-serif;
+  background-color: rgba(248, 250, 255, 1)
+}
+
+section {
+  max-width: 1200px;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
 }
