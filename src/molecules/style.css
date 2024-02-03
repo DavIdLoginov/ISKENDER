@@ -1,0 +1,36 @@
+.auth__cont {
+  /* width: 260px; */
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  position: relative;
+}
+
+.auth__cont::after {
+  content: '2';
+  position: absolute;
+  top: -7px;
+  right: -4px;
+  background-color: #DC3434;
+  color: #ffffff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Gilroy;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 7px;
+  text-align: left;
+
+}
+
+.auth__line {
+  height: 30px;
+  width: 1px;
+  background-color: #FFFFFF33;
+}

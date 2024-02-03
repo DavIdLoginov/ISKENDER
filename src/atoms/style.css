@@ -1,0 +1,47 @@
+.catalog__btn {
+  background-color: #0063A9;
+  width: 138px;
+  height: 40px;
+  color: #FFFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  gap: 15px;
+}
+
+.auth__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 30px;
+  column-gap: 10px;
+  color: white;
+}
+
+.auth__text p {
+  font-family: Gilroy;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: right;
+  
+}
+
+.auth__text a {
+  white-space: nowrap;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.auth__search {
+  width: 500px;
+  color: #949494;
+}
