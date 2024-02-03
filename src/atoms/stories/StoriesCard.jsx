@@ -3,7 +3,7 @@ import "../style.css";
 const StoriesCard = ({ img, name }) => {
   return (
     <>
-      {name && img != '' ? (
+      {name && img !== '' ? (
         <div className="card">
           <div className="card__img">
             <img src={img} alt="картинка сториз" />
