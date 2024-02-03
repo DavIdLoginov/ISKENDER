@@ -139,6 +139,42 @@
 }
 
 .categori__img img {
-  object-fit: contain;  
+  object-fit: contain;
 
+}
+
+/* Counter */
+
+.counter {
+  width: 174px;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counter span {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.counter button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 82.91px;
+  background-color: rgba(245, 245, 245, 1);
+  color: rgba(0, 0, 0, 1);
+  font-size: 34px;
+}
+
+.counter button:hover {
+  background-color: rgba(50, 134, 195, 1);
+  color: white;
 }

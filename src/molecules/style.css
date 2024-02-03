@@ -34,3 +34,113 @@
   width: 1px;
   background-color: #FFFFFF33;
 }
+
+/* Naming */
+
+.title__cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1244px;
+  margin-top: 49px;
+  margin-bottom: 18px;
+}
+
+.title__cont a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(49, 134, 195, 1);
+  white-space: nowrap;
+}
+
+.section__title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: rgba(0, 0, 0, 1);
+  display: block;
+  max-width: 1244px;
+  width: 100%;
+}
+
+.section__title-one {
+  margin-top: 49px;
+  margin-bottom: 18px;
+}
+
+/* swipperCard */
+
+.swip {
+  
+  width: 199px;
+  height: 341px;
+  border-radius: 8.29px;
+  border: 1.08px solid rgba(255, 255, 255, 1);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.swip__body {
+  margin-top: 5px;
+  row-gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.swip img {
+  width: 175px;
+  height: 149px;
+  border-radius: 9px;
+}
+
+.swip__title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 175px;
+  height: 51px;
+}
+
+.swip__price {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.swip__stock-false {
+  color: red;
+}
+
+.swip__stock {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(130, 207, 111, 1);
+}
+
+.swip__comp {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(50, 134, 194, 1);
+}
+
+.swip__comp::before {
+  content: '•';
+  margin-right: 6px;
+  font-weight: bold;
+}
